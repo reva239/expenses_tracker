@@ -53,7 +53,7 @@ python app.py
 ---
 
 ## 📄 Project Description (Click to Copy)
-<span onclick="()=>navigator.clipboard.writeText(this.innerText)">
+<span style="pointer:courser'" onclick="()=>navigator.clipboard.writeText(this.innerText)">
 This Personal Expense Tracker is a full-stack web application designed to help users record, manage, and analyze their daily expenses. The backend is built with Python’s Flask framework, handling all data operations and providing REST API endpoints for adding, retrieving, and summarizing expenses. SQLite is used as the database to keep the project lightweight and easy to run without additional configuration.
 
 The frontend is developed using HTML, Bootstrap for responsive styling, and Chart.js for interactive data visualization. Users can easily add expenses by specifying the date, category, description, and amount. The expenses are displayed in a clean, sortable table. A monthly summary view allows users to select a month and see category-wise spending in an interactive pie chart, making it easy to identify spending patterns.
