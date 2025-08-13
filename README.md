@@ -28,3 +28,47 @@ This project allows users to **add expenses**, **view expense history**, and **s
 ---
 
 ## 📂 Project Structure
+expense_tracker/
+│── app.py # Main Flask application
+│── db.py # Database connection & setup
+│── requirements.txt # Python dependencies
+│── expenses.db # SQLite database (auto-created on first run)
+│── templates/
+│ └── index.html # Frontend HTML template
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone this repository
+```bash
+git clone https://github.com/your-username/expense-tracker.git
+cd expense-tracker
+python -m venv venv
+source venv/bin/activate   # For Mac/Linux
+venv\Scripts\activate      # For Windows
+pip install -r requirements.txt
+python app.py
+```
+---
+
+## 📄 Project Description (Click to Copy)
+<span id="copyText" style="display:inline-block; border:1px solid #ccc; padding:10px; border-radius:5px; background:#f8f9fa; cursor:pointer;">
+This Personal Expense Tracker is a full-stack web application designed to help users record, manage, and analyze their daily expenses. The backend is built with Python’s Flask framework, handling all data operations and providing REST API endpoints for adding, retrieving, and summarizing expenses. SQLite is used as the database to keep the project lightweight and easy to run without additional configuration.
+
+The frontend is developed using HTML, Bootstrap for responsive styling, and Chart.js for interactive data visualization. Users can easily add expenses by specifying the date, category, description, and amount. The expenses are displayed in a clean, sortable table. A monthly summary view allows users to select a month and see category-wise spending in an interactive pie chart, making it easy to identify spending patterns.
+
+This project demonstrates skills in full-stack development, REST API design, frontend-backend communication via fetch API, and integrating data visualization libraries. It is beginner-friendly, runs locally without complex setup, and is suitable for inclusion in a developer portfolio. It showcases essential development concepts such as CRUD operations, responsive UI design, and dynamic chart rendering.
+
+Clicking this box will copy this description to your clipboard, making it quick to paste into resumes, reports, or documentation.
+</span>
+
+<script>
+document.getElementById("copyText").addEventListener("click", function() {
+    navigator.clipboard.writeText(this.innerText).then(() => {
+        alert("Project description copied to clipboard!");
+    });
+});
+</script>
+
+
